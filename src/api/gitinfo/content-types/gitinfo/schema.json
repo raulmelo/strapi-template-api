@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gitinfos",
+  "info": {
+    "singularName": "gitinfo",
+    "pluralName": "gitinfos",
+    "displayName": "gitinfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "urlRepository": {
+      "type": "string"
+    },
+    "nameRepository": {
+      "type": "string"
+    },
+    "namebranch": {
+      "type": "string"
+    },
+    "namesBranchs": {
+      "type": "json"
+    }
+  }
+}

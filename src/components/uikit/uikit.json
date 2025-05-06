@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_uikit_uikits",
+  "info": {
+    "displayName": "uikit",
+    "icon": "write",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "componentsUikit": {
+      "type": "json"
+    },
+    "Git": {
+      "type": "component",
+      "repeatable": false,
+      "component": "git.git"
+    }
+  }
+}

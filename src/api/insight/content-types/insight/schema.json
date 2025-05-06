@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "insights",
+  "info": {
+    "singularName": "insight",
+    "pluralName": "insights",
+    "displayName": "insights"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tenant": {
+      "type": "string",
+      "required": true
+    },
+    "lastUpdate": {
+      "type": "date",
+      "required": true
+    },
+    "clarity": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::clarity.clarity"
+    },
+    "data": {
+      "type": "json"
+    }
+  }
+}

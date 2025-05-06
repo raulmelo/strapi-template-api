@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clarities",
+  "info": {
+    "singularName": "clarity",
+    "pluralName": "clarities",
+    "displayName": "Clarity",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tenant": {
+      "type": "string"
+    },
+    "Token": {
+      "type": "string",
+      "private": true,
+      "required": true
+    },
+    "idTenant": {
+      "type": "uid",
+      "targetField": "Tenant",
+      "required": false
+    },
+    "Codigo": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "urlSite": {
+      "type": "string"
+    },
+    "Ambiente": {
+      "type": "enumeration",
+      "enum": [
+        "PRD",
+        "HML",
+        "SB"
+      ],
+      "default": "PRD"
+    }
+  }
+}

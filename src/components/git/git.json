@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_git_gits",
+  "info": {
+    "displayName": "Git",
+    "icon": "server",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "urlRepository": {
+      "type": "string"
+    },
+    "nameRepository": {
+      "type": "string"
+    },
+    "namebranch": {
+      "type": "string"
+    },
+    "namesBranchs": {
+      "type": "json"
+    },
+    "lastCommitAuthor": {
+      "type": "string"
+    },
+    "lastCommitMessage": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "modulos",
+  "info": {
+    "singularName": "modulo",
+    "pluralName": "modulos",
+    "displayName": "Modulos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "moduleName": {
+      "type": "string",
+      "unique": true
+    },
+    "Route": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "extra": {
+      "type": "component",
+      "repeatable": false,
+      "component": "uikit.uikit"
+    }
+  }
+}

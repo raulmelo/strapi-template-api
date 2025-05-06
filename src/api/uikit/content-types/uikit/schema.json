@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "uikits",
+  "info": {
+    "singularName": "uikit",
+    "pluralName": "uikits",
+    "displayName": "uikit"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tag": {
+      "type": "string"
+    },
+    "Nome": {
+      "type": "string"
+    }
+  }
+}
